@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 const ClickEvent=()=>{
-  const [number, setNumber] = useState(50)
+  const [number, setNumber] = useState(0)
 
 
   const increament =()=>{
@@ -10,7 +10,9 @@ const ClickEvent=()=>{
   }
 
   const decreament =()=>{
+    if (number>1){
     setNumber(number - 1)
+    }
   }
   return (
     <div><h1> {number}</h1>
