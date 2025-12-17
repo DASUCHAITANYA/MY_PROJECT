@@ -1,15 +1,8 @@
-.chaitu{
-  border: 45in;
+.React{
+  text-align: center;
   color: blue;
-  background-color: #640d0d;
 }
-
-.dasu{
-  display: block;
-  color: chocolate;
-  font-size: larger;
-}
-.nothing{
-  width: 150px;
-  height: 1200px;
+.p{
+  text-align: center;
+  color: red;
 }
